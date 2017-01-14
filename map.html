@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <style>
+      #map {
+        height: 100%;
+      }
+      html, body {
+        height: 95%;
+      }
+
+	 #fmap {
+		 visibility: none;
+	 }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="fmap"></div>
+    <script src="handle.js"></script>
+    <script src="fetch.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=fetchStuff"
+    async defer></script>
+  </body>
+</html>
